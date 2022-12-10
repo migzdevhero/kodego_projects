@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {  
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+i {
+  color: #e94560;
+}
+i:hover {
+  color: rgb(211, 211, 211);
+  transition: .2s;
+}
+.navbar {
+  background: #1a1a2e;
+  box-shadow: 5px 5px 5px #e9456011;
+}
+.navbar-brand .logo {
+  color: #e94560;
+  padding: 0 20px;
+  font-weight: 800;  
+}
+.navbar-brand .logo:hover {
+  color: rgb(211, 211, 211);
+  transition: .2s;
+
+}
+.dropdown-menu-list,
+.dropdown-menu {
+  background: #1a1a2e;
+}
+
+#Home {
+  background: #1a1a2e;
+  padding: 5% 10%;
+}
+.hero-header,
+.honorable-section-header,
+.comment-section-header,
+.top5-section-header {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+span {
+  color: #e94560;
+}
+#top5 {
+  background: #16213e;
+  padding: 5% 10%;
+}
+.card-header-headings {
+  font-weight: 700;
+}
+.card-title {
+  font-weight: 700;
+  color: #e94560;
+}
+#honorable-mention {
+  background: #0f3460;
+  padding: 5% 10% 2% 10%;
+}
+
+.carousel-item-header {
+  background-color: #e94560;
+  color: #16213e;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 45%;
+  margin: 0 auto;
+}
+.carousel-img {  
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.493);
+}
+#modal-section {
+  background: #0f3460;
+  padding: 0% 10% 3% 10%;  
+}
+#modal-section .container .row {
+  width: 92%;
+  margin: 0 auto;
+}
+.modal-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e94560;
+}
+#modal-btn {
+  background: #16213e;
+  color: #e94560;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+#modal-btn:hover {
+  background-color: #e94560;
+  color: #0f3460;
+  transition: .8s;
+
+}
+
+#comment-section {  
+  background: #e94560;
+  padding: 5% 10%;
+}
+.comment {
+  color: #1a1a2e;
+}
+.comment-btn button {
+  font-weight: 700;
+  color: #e94560;
+  background: #1a1a2e;
+}
+.comment-btn button:hover {
+  background-color: #0f3460;
+  color: white;
+  transition: .8s;
+}
+#footer {
+  padding: 5% 10%;
+  background: #16213e;
+}
+.contactMe i {
+  font-size: 2.5rem; 
+
+}
+.contactMe i:hover {
+  color: white;
+}
+.bottom-footer {
+  padding: 2rem;
+  color: #e94560;
+  text-align: center;  
+  background: #1a1a2e;
+}
+/* Pages */
+.pages-img {
+position: relative;
+top: 0;
+left: 0;      
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 700px;
+}
+/* ACCOORDION */
+#accordion {
+  padding: 5% 10%;
+  background: #e94560;
+}
+.accordion-header {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+}
+.accordion-button {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.accordion-button:hover {
+  background-color: #1a1a2e;
+  color: #e94560;
+  transition: 1s;
+}
+.fa-play {
+  color: rgba(255, 255, 255, 0.603);
+  font-size: 4rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  z-index: 100;
+}
+.fa-play:hover {
+  color: #e94560;
+  transition: .5s;
+}
+.back-to-lists .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #e94560;
+  background: #16213e;
+}
+.back-to-lists .btn:hover {
+  background: white;
+  color: #1a1a2e;
+  transition: 1s;
+
+}
+@media  (max-width: 600px) {
+.hero-header,
+.honorable-section-header,
+.comment-section-header,
+.top5-section-header,
+.accordion-header {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .contactMe i {
+    font-size: 1rem;
+  }
+  .bottom-footer .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar .container .navbar-toggler {
+    border: 1px solid #e94560;
+  }
+}

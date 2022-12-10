@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Favorite TV Series</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/37d5d92016.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#Home"><span class="logo">favTVseries.com</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ps-5">
+                            <a class="nav-link" aria-current="page" href="#Home"><i class="fas fa-home"></i> </a>
+                        </li>
+                        <li class="nav-item ps-5 dropdown">
+                            <a class="nav-link dropdown-toggle text-danger" href="top5" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-tv"></i></a>
+                            <ul class="dropdown-menu p-0">
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger" href="#top5">My
+                                        Favorite TV Series</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="#honorable-mention">Worth to Mention</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="#comment-section">Comments</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-5 dropdown">
+                            <a class="nav-link dropdown-toggle text-danger" href="top5" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="breakingbad.html">Breaking Bad</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="spartacus.html">Spartacus</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="prisonbreak.html">Prison Break</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="moneyheist.html">La Casa de Papel</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="wednesday.html">Wednesday</a></li>
+                                <li class="dropdown-menu-list"><a class="dropdown-item text-danger"
+                                        href="theoriginals.html">The Originals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-5">
+                            <a class="nav-link" href="#footer"><i class="fas fa-phone"></i></a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Home -->
+    <section id="Home">
+        <div class="container text-center d-flex flex-column align-items-center">
+            <div class="tv-gif">
+                <img src="https://media.giphy.com/media/ztm2TsXkrUeQ0/giphy.gif" class="w-100" alt="">
+            </div>
+            <div class="header">
+                <h1 class="hero-header">
+                    Welcome to my Top 6 Lists of <span>Favorite TV Series</span> of all time!
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- top 5 -->
+    <section id="top5">
+        <div class="container">
+            <h1 class="top5-section-header text-center pb-5">My <span>Top Six</span> TV Series!</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top One</h4>
+                        </div>
+                        <img id="breakingbad-img" src="img/breaking_poster.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Breaking Bad</h3>
+                            <p class="card-text">Starring: Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Betsy
+                                Brandt, RJ Mitte, Bob Odenkirk, Jonathan Banks, Giancarlo Esposito, Steven Michael
+                                Quezada,
+                            </p>
+                            <a href="breakingbad.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 97%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top Two</h4>
+                        </div>
+                        <img id="spartacus-img" src="img/spartacus_poster.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Spartacus</h3>
+                            <p class="card-text">Starring: Liam McIntyre, Manu Bennett, Dustin Clare, Dan Feuerriegel,
+                                Cynthia Addai-Robinson</p>
+                            <a href="spartacus.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top Three</h4>
+                        </div>
+                        <img id="prison-break-img" src="img/Prison_Break_poster.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Prison Break</h3>
+                            <p class="card-text">Starring: Wentworth Miller, Dominic Purcell, Sarah Wayne Callies,
+                                Amaury Nolasco, Robert Knepper</p>
+                            <a href="prisonbreak.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 89%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top Four</h4>
+                        </div>
+                        <img id="money-img" src="img/money_poster.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Money Heist</h3>
+                            <p class="card-text">Starring: Wentworth Miller, Dominic Purcell, Sarah Wayne Callies,
+                                Amaury Nolasco, Robert Knepper</p>
+                            <a href="moneyheist.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 91%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top Five</h4>
+                        </div>
+                        <img id="wednesday-img" src="img/wednesday_poster.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Wednesday</h3>
+                            <p class="card-text">Starring: Wentworth Miller, Dominic Purcell, Sarah Wayne Callies,
+                                Amaury Nolasco, Robert Knepper</p>
+                            <a href="wednesday.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 93%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h4 class="card-header-headings">My Top Six</h4>
+                        </div>
+                        <img id="originals-img" src="img/the_originals-173026242-large.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">The Originals</h3>
+                            <p class="card-text">Starring: Joseph Morgan, Phoebe Tonkin, Daniel Gillies, Daniella
+                                Pineda, Leah Pipes, Claire Holt, Charles Michael Davis, Danielle Campbell, Yusuf
+                                Gatewood, Riley Voelkel</p>
+                            <a href="theoriginals.html" class="btn btn-dark btn-sm">Learn more...</a>
+                            <div class="card-footer mt-2"><i class="fa-solid fa-thumbs-up"></i> 86%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- honorable mentions -->
+    <section id="honorable-mention">
+        <div class="container">
+            <h1 class="honorable-section-header text-center pb-5">TV Shows <span>worth</span> to mention!</h1>
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="control">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#control" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#control" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#control" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#control" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="img/lost-carousel.jpg" class="d-block carousel-img" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h4 class="carousel-item-header py-2">LOST</h3> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/the-walking-dead-show-wallpapers.jpg" class="d-block carousel-img" alt="">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h4 class="carousel-item-header py-2">WALKING DEAD</h3>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/jack-bauer-wallpaper.jpg" class="d-block carousel-img" alt="">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h4 class="carousel-item-header py-2">24</h3>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/the-vampire-diaries-all-cast-wallpapers.jpg" class="d-block carousel-img" alt="">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h4 class="carousel-item-header py-2">THE VAMPIRE DIARIES</h3>
+                        </div> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#control" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-danger"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#control" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-danger"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4 justify-contents-center">
+                <div class="modal-item1 col">
+                    <div class="btn-modal1">
+                        <button id="modal-btn" class="btn w-100" data-bs-toggle="modal" data-bs-target="#sampleModal1">
+                            LOST
+                        </button>
+                    </div>
+                    <div class="modal fade" id="sampleModal1">
+                        <div class="modal-dialog modal-dialog-centered modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">LOST</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <P>Director: J.J. Abrams (Creator), Damon Lindelof (Creator), Jeffrey Lieber
+                                        (Creator),
+                                        Carlton Cuse (Creator), Jack Bender, Stephen Williams, Paul A. Edwards, Tucker
+                                        Gates
+                                    </P>
+                                    <p>Cast: Matthew Fox, Evangeline Lilly, Terry O'Quinn, Josh Holloway, Naveen
+                                        Andrews,
+                                        Jorge
+                                        Garcia, Kim Yoon-jin, Daniel Dae Kim, Dominic Monaghan, Michael Emerson</p>
+                                    <P>TV Series (2004-2010). 6 Seasons. 121 Episodes. 48 survivors fight to stay alive
+                                        on a
+                                        tropical island with a malicious mind of its own, after their plane mysteriously
+                                        tears apart over it.</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-item2 col">
+                    <div class="btn-modal2">
+                        <button id="modal-btn" class="btn w-100" data-bs-toggle="modal" data-bs-target="#sampleModal2">
+                            WALKING DEAD
+                        </button>
+                    </div>
+                    <div class="modal fade" id="sampleModal2">
+                        <div class="modal-dialog modal-dialog-centered modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">WALKING DEAD</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <P>Director:Robert Kirkman (Creator), Frank Darabont, Greg Nicotero, Ernest R.
+                                        Dickerson, Michael E. Satrazemis, David Boyd, Guy Ferland, Billy Gierhart</P>
+                                    <p>Cast: Andrew Lincoln, Norman Reedus, Melissa Suzanne McBride, Lauren Cohan,
+                                        Chandler Riggs, Danai Gurira, Jeffrey Dean Morgan, Steven Yeun, Sarah Wayne
+                                        Callies, Sonequa Martin-Green</p>
+                                    <P>TV Series (2010-2022). 11 Seasons. 177 Episodes. "The Walking Dead" tells the
+                                        story of the weeks and months that follow a pandemic zombie apocalypse. County
+                                        Sheriff Rick Grimes travels with his family and a small group of survivors,
+                                        constantly in search of a safe and secure home. But the constant pressure of
+                                        fighting off death on a daily basis takes a heavy toll, sending many to the
+                                        lowest depths of human cruelty. As Rick struggles to keep his family alive, he
+                                        will discover that the overwhelming fear of the survivors can be far more
+                                        dangerous than the mindless walkers roaming the earth.</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-item3 col">
+                    <div class="btn-modal3">
+                        <button id="modal-btn" class="btn w-100" data-bs-toggle="modal" data-bs-target="#sampleModal3">
+                            24
+                        </button>
+                    </div>
+                    <div class="modal fade" id="sampleModal3">
+                        <div class="modal-dialog modal-dialog-centered modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">24</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <P>Director: Joel Surnow (Creator), Robert Cochran (Creator), Jon Cassar, Brad
+                                        Turner, Milan Cheylov, Bryan Spicer, Stephen Hopkins, Ian Toynton</P>
+                                    <p>Cast: Kiefer Sutherland, Elisha Cuthbert, Mary Lynn Rajskub, Dennis Haysbert,
+                                        Carlos Bernard, James Morrison, Reiko Aylesworth, Jude Ciccolella, Kim Raver,
+                                        Cherry Jones</p>
+                                    <P>TV Series (2001-2010). 8 Seasons. 192 Episodes. Jack Bauer is a counterterrorism
+                                        agent for whom each day is more absurd and terrifying than the last one. In the
+                                        first season/day, he had to deal with assassination attempts on a presidential
+                                        candidate and his daughter's disappearance. In the second season/day (the time
+                                        of this writing) he has to track down and stop a massive nuclear weapon from
+                                        destroying Los Angeles. Meanwhile, his daughter is on a chase of her own. What
+                                        will the next day hold... if there is one?</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-item4 col">
+                    <div class="btn-modal4">
+                        <button id="modal-btn" class="btn w-100" data-bs-toggle="modal" data-bs-target="#sampleModal4">
+                            THE VAMPIRE DIARIES
+                        </button>
+                    </div>
+                    <div class="modal fade" id="sampleModal4">
+                        <div class="modal-dialog modal-dialog-centered modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">THE VAMPIRE DIARIES</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <P>Director: Kevin Williamson (Creator), Julie Plec (Creator), Chris Grismer, Joshua
+                                        Butler, Michael A. Allowitz, Marcos Siega, Pascal Verschooris, Kellie Cyrus</P>
+                                    <p>Cast: Ian Somerhalder, Nina Dobrev, Paul Wesley, Candice Accola, Kat Graham,
+                                        Michael
+                                        Trevino, Kayla Ewell, Steven R. McQueen, Matthew Davis, Sara Canning</p>
+                                    <P>TV Series (2009-2017). 8 Seasons. 171 Episodes. The series picked up from
+                                        American
+                                        station the CW, joins True Blood as the second series based on a series of
+                                        novels.
+                                        Its recipe is simple: take the timeless appeal of vampires, good-looking teens,
+                                        add
+                                        a dash of blood and gore with a hint of mystery. Stir, it together and out comes
+                                        Vampire Diaries. A spoiler alert for exists for the rest of the article.</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- COMMENT -->
+    <section id="comment-section">
+
+        <div class="container">
+            <h1 class="comment-section-header pb-5">What's your <span class="comment">favorite</span> Tv show? Hit me up
+                and shared it me!</h1>
+            <div class="mb-3 form-floating">
+                <input type="text" class="form-control" id="name" placeholder="Enter your name...">
+                <label for="name" class="form-label">Name</label>
+            </div>
+            <div class="mb-3 form-floating">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email" class="form-label">Email Address</label>
+            </div>
+            <div class="form-floating mb-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea">Comments</label>
+            </div>
+            <div class="comment-btn">
+                <button type="button" class="btn w-100">SUBMIT</button>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="contactMe text-center d-flex justify-content-around">
+                <a href="https://www.facebook.com/megryanchapelle" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/muggai" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#footer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/migzdevhero" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:example@example.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:555-555-5555"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-footer">
+        <div class="container d-flex justify-content-between">
+            <p class="mb-0">All rights reserve @2022 by favTVseries.com</p>
+            <p>Created by Miguel S Kilantang Jr</p>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
